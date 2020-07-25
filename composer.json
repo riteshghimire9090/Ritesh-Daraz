@@ -1,0 +1,22 @@
+{
+    "name": "user/ritesh-daraz",
+    "authors": [
+        {
+            "name": "Ritesh Ghimire",
+            "email": "riteshghimire9090@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ritesh\\Daraz\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ritesh\\Daraz\\RiteshDarazServiceProvider"
+            ]
+        }
+    }
+}
